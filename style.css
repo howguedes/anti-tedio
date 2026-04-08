@@ -1,0 +1,42 @@
+body {
+font-family: Arial, sans-serif;
+background: linear-gradient(135deg, #667eea, #764ba2);
+color: white;
+text-align: center;
+height: 100vh;
+margin: 0;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+.container {
+background: rgba(0,0,0,0.4);
+padding: 30px;
+border-radius: 20px;
+width: 350px;
+}
+
+button {
+padding: 12px;
+margin: 5px;
+border: none;
+border-radius: 10px;
+cursor: pointer;
+font-size: 14px;
+}
+
+button:hover {
+transform: scale(1.05);
+}
+
+#clickBtn {
+background: #ff4757;
+color: white;
+font-size: 18px;
+}
+
+#resultado {
+margin: 15px;
+min-height: 40px;
+}
